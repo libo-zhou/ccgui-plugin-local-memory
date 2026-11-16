@@ -1,0 +1,24 @@
+{
+  "id": "local-memory",
+  "name": "项目记忆",
+  "version": "1.0.0",
+  "tier": "js",
+  "icon": "docs/icon.svg",
+  "author": "libo-zhou",
+  "repo": "libo-zhou/ccgui-plugin-local-memory",
+  "license": "MIT",
+  "minAppVersion": "1.0.0",
+  "sdkVersion": "^0.3",
+  "description": "项目与全局分层记忆，支持对话自然语言记忆、Prompt 无感注入、底栏状态与设置页管理。",
+  "permissions": [
+    "storage",
+    "session.lifecycle.read",
+    "runtime.events.read",
+    "prompt.contribute.internal",
+    "ui:settings-section",
+    "ui:status-bar",
+    "host:workspace",
+    "workspace.metadata.read",
+    "network:none"
+  ]
+}
