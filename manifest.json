@@ -1,7 +1,7 @@
 {
   "id": "local-memory",
-  "name": "项目记忆",
-  "version": "1.0.0",
+  "name": "长期记忆",
+  "version": "1.2.0",
   "tier": "js",
   "icon": "docs/icon.svg",
   "author": "libo-zhou",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "minAppVersion": "1.0.0",
   "sdkVersion": "^0.3",
-  "description": "项目与全局分层记忆，支持对话自然语言记忆、Prompt 无感注入、底栏状态与设置页管理。",
+  "description": "本地长期记忆（全局通用偏好、项目专属记忆与Agent专属规范），支持自然语言动态记忆、引擎隔离注入与设置页管理。",
   "permissions": [
     "storage",
     "session.lifecycle.read",

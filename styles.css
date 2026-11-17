@@ -1,4 +1,4 @@
-/* 项目记忆 (local-memory) 插件样式表 */
+/* 长期记忆 (local-memory) 插件样式表 */
 
 .pm-settings-container {
   display: flex;
@@ -267,8 +267,11 @@
 }
 
 .pm-empty-icon {
-  font-size: 32px;
-  opacity: 0.8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-tertiary, #a1a1aa);
+  opacity: 0.85;
 }
 
 .pm-empty-title {
@@ -394,4 +397,10 @@
 
 .pm-status-bar-chip:hover.has-entries {
   color: #3b82f6;
+}
+
+
+.pm-scope-badge.agent {
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
 }
