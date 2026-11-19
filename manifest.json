@@ -1,7 +1,7 @@
 {
   "id": "local-memory",
   "name": "长期记忆",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "tier": "js",
   "icon": "docs/icon.svg",
   "author": "libo-zhou",
