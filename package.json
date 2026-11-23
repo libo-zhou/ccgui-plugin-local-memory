@@ -1,0 +1,8 @@
+{
+  "name": "ccgui-plugin-local-memory",
+  "version": "1.0.0",
+  "description": "项目与全局分层记忆插件，支持对话自然语言记忆、Prompt 无感注入、底栏状态与设置页管理。",
+  "author": "libo-zhou",
+  "license": "MIT",
+  "private": true
+}
