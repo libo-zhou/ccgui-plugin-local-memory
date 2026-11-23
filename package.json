@@ -1,0 +1,8 @@
+{
+  "name": "ccgui-plugin-local-memory",
+  "version": "1.2.0",
+  "description": "本地长期记忆（全局通用偏好、项目专属记忆与Agent专属规范），支持自然语言动态记忆、引擎隔离注入与设置页管理。",
+  "author": "libo-zhou",
+  "license": "MIT",
+  "private": true
+}

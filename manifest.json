@@ -1,0 +1,24 @@
+{
+  "id": "local-memory",
+  "name": "长期记忆",
+  "version": "1.2.0",
+  "tier": "js",
+  "icon": "docs/icon.svg",
+  "author": "libo-zhou",
+  "repo": "libo-zhou/ccgui-plugin-local-memory",
+  "license": "MIT",
+  "minAppVersion": "1.0.0",
+  "sdkVersion": "^0.3",
+  "description": "本地长期记忆（全局通用偏好、项目专属记忆与Agent专属规范），支持自然语言动态记忆、引擎隔离注入与设置页管理。",
+  "permissions": [
+    "storage",
+    "session.lifecycle.read",
+    "runtime.events.read",
+    "prompt.contribute.internal",
+    "ui:settings-section",
+    "ui:status-bar",
+    "host:workspace",
+    "workspace.metadata.read",
+    "network:none"
+  ]
+}
